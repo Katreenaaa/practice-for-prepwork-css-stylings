@@ -1,37 +1,64 @@
+body {
+  background-color: #f5f4e0;
+}
+
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 30px;
+  text-align: center;
+  margin: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background-color: burlywood;
+  border-radius: 10px;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 10px;
+  font-weight: normal;
+  color: #333;
+  background-color: #ebe9e6;
+}
+
+h2:hover {
+  color: #333;
+  background-color: #f0f0f0;
+  transition-duration: 200ms;
+}
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 20px;
+  margin: 0 auto;
+  color: black;
+  background-color: #eeedd2;
 }
 
 .logo {
-    background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+  background-size: cover;
+  display: block;
+  margin: 20px auto;
+  background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+  background-color: #ecebc1;
+  height: 300px;
+  width: 300px;
+}
+
+.logo:hover {
+  background-color: #ecc1c1;
+  transition: 200ms;
 }
